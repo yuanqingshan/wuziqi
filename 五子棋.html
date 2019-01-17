@@ -162,7 +162,7 @@
     var x = Math.floor(px / 30);
     var y = Math.floor(py / 30);
     //是否点击了newgame
-    isNewGame(e.clientX, e.clientY);
+    // isNewGame(e.clientX, e.clientY);
     //鼠标点击棋盘外的区域不响应
     if (px < 0 || py < 0 || x > 14 || y > 14 || chessData[x][y] != 0) {
       return;
